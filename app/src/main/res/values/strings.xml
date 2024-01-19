@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WorkoutGenerator</string>
+    <string name="registerText1">Already Registered?</string>
+    <string name="registerText2">Login</string>
+    <string name="loginText1">Not Registered?</string>
+    <string name="loginText2">Register</string>
+    <string name="generalText">בדף זה הסבר קצר על השימוש באפליקציה ובמסכים השונים.</string>
+
+</resources>

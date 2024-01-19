@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    tools:context=".Splash"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "מדריך למשתמש"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "@string/generalText"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="40dp">
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="התחברות"
+                android:background="#CDCBFA"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp">
+                <ImageView
+                    android:padding="5dp"
+                    android:id="@+id/iv1"
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:src="@drawable/login_activity"/>
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"/>
+
+            </LinearLayout>
+
+
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="מסך פרטים אישיים"
+                android:background="#CDCBFA"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp">
+                <ImageView
+                    android:padding="5dp"
+                    android:id="@+id/iv2"
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:src="@drawable/registration_activity"/>
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="דף הבית"
+                android:background="#CDCBFA"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp">
+                <ImageView
+                    android:padding="5dp"
+                    android:id="@+id/iv3"
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:src="@drawable/home_screen_activity"/>
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"/>
+
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="אודות האפליקציה"
+                android:background="#CDCBFA"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp">
+                <ImageView
+                    android:id="@+id/iv4"
+                    android:padding="5dp"
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:src="@drawable/about_me_activity"/>
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"/>
+            </LinearLayout>
+
+
+
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="היסטוריית אימונים"
+                android:background="#CDCBFA"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp">
+                <ImageView
+                    android:id="@+id/iv5"
+                    android:padding="5dp"
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:src="@drawable/workout_history_activity"/>
+
+                <TextView
+                    android:id="@+id/tv5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"/>
+            </LinearLayout>
+
+
+
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="חיפוש תרגילים חדשים"
+                android:background="#CDCBFA"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp">
+                <ImageView
+                    android:padding="5dp"
+                    android:id="@+id/iv6"
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:src="@drawable/exercises_list_activity"/>
+
+                <TextView
+                    android:id="@+id/tv6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"/>
+
+            </LinearLayout>
+
+
+
+            <Button
+                android:id="@+id/b7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="בניית אימון - הגדרת זמנים"
+                android:background="#CDCBFA"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp">
+                <ImageView
+                    android:padding="5dp"
+                    android:id="@+id/iv7"
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:src="@drawable/build_workout_activity"/>
+
+                <TextView
+                    android:id="@+id/tv7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/b8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="בניית אימון - הגדרת תרגילים"
+                android:background="#CDCBFA"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp">
+                <ImageView
+                    android:padding="5dp"
+                    android:id="@+id/iv8"
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:src="@drawable/add_exercises_activity"/>
+
+                <TextView
+                    android:id="@+id/tv8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/b9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="שעון טיימר"
+                android:background="#CDCBFA"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp">
+                <ImageView
+                    android:padding="5dp"
+                    android:id="@+id/iv9"
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:src="@drawable/timer_activity"/>
+
+                <TextView
+                    android:id="@+id/tv9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

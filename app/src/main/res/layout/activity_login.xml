@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    tools:context=".Splash"
+    android:orientation="vertical">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/running"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="30dp"
+        android:textColor="#9E2905F3"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:inputType="numberPassword"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_marginTop="30dp"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:background="#9E2905F3"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity= "center_horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/tvQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loginText1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#9E2905F3"/>
+        <TextView
+            android:id="@+id/tvRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loginText2"
+            android:textStyle="bold"
+            android:textColor="#9E2905F3"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+

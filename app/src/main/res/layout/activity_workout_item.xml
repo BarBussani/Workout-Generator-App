@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WorkoutItem"
+    android:orientation="vertical"
+    android:gravity="right">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvPrepareTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="חימום: "
+            android:padding="5dp"
+            android:textSize="10dp"/>
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10 שניות "
+            android:textStyle="bold"
+            android:textSize="10dp"/>
+        <TextView
+            android:id="@+id/tvWorkTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="זמן עבודה: "
+            android:padding="5dp"
+            android:textSize="10dp"/>
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20 שניות "
+            android:textStyle="bold"
+            android:textSize="10dp"/>
+        <TextView
+            android:id="@+id/tvRestTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="זמן מנוחה: "
+            android:padding="5dp"
+            android:textSize="10dp"/>
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10 שניות "
+            android:textStyle="bold"
+            android:textSize="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvNumOfCycles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="מספר מחזורים: "
+            android:padding="5dp"
+            android:textSize="10dp"/>
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textStyle="bold"
+            android:textSize="10dp"/>
+        <TextView
+            android:id="@+id/tvNumOfSets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="מספר סטים: "
+            android:padding="5dp"
+            android:textSize="10dp"/>
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textStyle="bold"
+            android:textSize="10dp"/>
+        <TextView
+            android:id="@+id/tvRestBetweenSets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="זמן מנוחה בין סטים: "
+            android:padding="5dp"
+            android:textSize="10dp"/>
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20 שניות "
+            android:textStyle="bold"
+            android:textSize="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="התרגילים: "
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textSize="10dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="right"
+    android:weightSum="10"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/ivExerciseImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:src="@drawable/ic_launcher_foreground"/>
+
+    <TextView
+        android:id="@+id/tvNameOfExercise"
+        android:text="שם תרגיל"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="17dp"
+        android:layout_weight="5"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/ivLike"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:layout_gravity="center_vertical"/>
+
+
+</LinearLayout>

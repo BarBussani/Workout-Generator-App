@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SendEmail"
+    android:background="@drawable/background_color"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:padding="10dp">
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/emailEt"
+        android:gravity="right"
+        android:hint="הקלד אימייל"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"/>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/subjectEt"
+        android:gravity="right"
+        android:hint="הקלד נושא הודעה"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"/>
+
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/EmailMessageEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="הקלד הודעה"
+        android:gravity="right"
+        android:layout_weight="1"
+        android:lines="10"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnSend"
+        android:text="שלח"
+        android:layout_weight="0.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+
+
+</LinearLayout>

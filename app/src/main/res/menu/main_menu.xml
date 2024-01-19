@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:icon="@drawable/ic_icon"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item1"
+        app:showAsAction="never"
+        android:title="מדריך 👩🏻‍🏫"
+        android:orderInCategory="100"/>
+
+    <item
+        android:id="@+id/item2"
+        app:showAsAction="never"
+        android:title="אודות 👩🏻‍🦱"
+        android:orderInCategory="200"/>
+
+    <item
+        android:id="@+id/item3"
+        app:showAsAction="never"
+        android:title="רשימת תרגילים 🏋🏻‍♀️"
+        android:orderInCategory="300"/>
+
+    <item
+        android:id="@+id/item4"
+        app:showAsAction="never"
+        android:title="בנה אימון חדש ⏱️"
+        android:orderInCategory="300"/>
+
+    <item
+        android:id="@+id/item55"
+        app:showAsAction="never"
+        android:title="היסטוריית אימונים 📜"
+        android:orderInCategory="350"/>
+
+    <item
+        android:id="@+id/item666"
+        app:showAsAction="never"
+        android:title="חזרה למסך הבית 🏠"
+        android:orderInCategory="50"/>
+
+    <item
+        android:id="@+id/item7"
+        app:showAsAction="never"
+        android:title="שלח SMS 📲"
+        android:orderInCategory="100"/>
+
+    <item
+        android:id="@+id/item8"
+        app:showAsAction="never"
+        android:title="שלח אימייל 💌"
+        android:orderInCategory="100"/>
+
+</menu>
