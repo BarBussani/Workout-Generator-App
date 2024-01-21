@@ -26,6 +26,9 @@ Timer activity:
 
 ![Timer](https://github.com/BarBussani/Workout-Generator-App/assets/157055591/5e097b56-14ab-4481-8302-bf9100bece53)
 
+Workout history activity:
+
+![WorkoutHistory](https://github.com/BarBussani/Workout-Generator-App/assets/157055591/b401c660-c715-496d-bb43-370006841b41)
 
 
 
