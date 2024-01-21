@@ -6,6 +6,9 @@ The app has several features:
 3. Browsing a database of new sports exercises.
 In addition, the application has an interface in Hebrew.
 
+User guide activity:
+
+
 
 List of exercises activity:
 
