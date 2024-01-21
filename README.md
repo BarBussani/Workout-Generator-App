@@ -7,3 +7,8 @@ The app has several features:
 In addition, the application has an interface in Hebrew.
 
 
+List of exercises activity:
+
+![ListOfExercises](https://github.com/BarBussani/Workout-Generator-App/assets/157055591/877d9e23-1703-43e5-9d6e-832f2ebe2e84)
+
+
