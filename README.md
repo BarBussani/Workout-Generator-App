@@ -16,6 +16,9 @@ List of exercises activity:
 
 Exercise view activity:
 
+![ExerciseView](https://github.com/BarBussani/Workout-Generator-App/assets/157055591/97113b27-9d14-464f-b0b1-0bec0e3a5467)
+
+
 
 
 
