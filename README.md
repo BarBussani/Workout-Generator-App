@@ -22,6 +22,9 @@ Build workout activity:
 
 ![BuildWorkout](https://github.com/BarBussani/Workout-Generator-App/assets/157055591/994ff6b0-3c92-4367-ad1a-82c6088bfcfa)
 
+Timer activity:
+
+![Timer](https://github.com/BarBussani/Workout-Generator-App/assets/157055591/5e097b56-14ab-4481-8302-bf9100bece53)
 
 
 
