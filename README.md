@@ -8,7 +8,7 @@ In addition, the application has an interface in Hebrew.
 
 User guide activity:
 
-
+![ListOfExercises](https://github.com/BarBussani/Workout-Generator-App/assets/157055591/a1993152-489f-4d2e-84f0-6f8b2a15c6c8)
 
 List of exercises activity:
 
